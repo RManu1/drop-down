@@ -1,5 +1,7 @@
 To run this project please use
+   
     > npm install
+   
     > npm start
 
 The dropdown component should not be altered.
