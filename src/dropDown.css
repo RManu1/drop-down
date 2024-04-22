@@ -1,0 +1,85 @@
+.menu {
+    display: flex;
+    height: 40px;
+    border: 2px solid grey;
+    border-radius: 4px;
+    align-items: center;
+    font-size: 16px;
+    font-weight: 500;
+    justify-content: space-between;
+}
+
+.menu-closed {
+    border: 2px solid grey;
+}
+
+.menu-open {
+    border: 2px solid #027ecc;
+}
+
+.menu-empty {
+    color: grey;
+}
+
+.chevron {
+    display: flex;
+    align-items: center;
+    padding: 2px;
+}
+
+.chevron:hover {
+    background-color: #d4d2d2;
+}
+
+.delete {
+    display: flex; 
+    align-items: center;
+    margin-right: 8px;
+    padding: 2px;
+}
+
+.delete:hover {
+    background-color: #d4d2d2;
+}
+
+.icons {
+    display: flex; 
+    align-items: center;
+    margin-right: 10px;
+}
+
+.selection-display {
+    margin-left: 10px;
+    width: 75%;
+    overflow: hidden;
+    text-overflow: ellipsis;
+    white-space: nowrap;
+}
+
+.container {
+    display: flex;
+    flex-direction: column;
+    border-radius: 4px;
+    width: 100%;
+    box-shadow: 0px 5px 10px #b1b3b5, -2px 2px 2px #b1b3b5, 2px 2px 2px #b1b3b5;
+    max-height: 210px;
+    overflow-y: auto;
+    scrollbar-width: thin;
+}
+
+.option {
+    align-items: center;
+    display: flex;
+    min-height: 35px; 
+    padding-left: 10px;
+    font-size: 16px;
+    font-weight: 500;
+}
+
+.option:hover {
+    background-color: #d4d2d2;
+}
+
+.option-selected {
+    background-color: #edf5fa;
+}
